@@ -32,10 +32,9 @@ function App() {
   return (
     <>
     <Routes>
-    <Route path={'/register'} element={<Register/>}/>
+    <Route path={'/'} element={<Register/>}/>
     <Route path={'/login'} element={<Login/>}/>
     <Route path="/home" element={<Home/>}/>
-
     </Routes>
       {/* <Addproduct saveProduct={saveProduct} /> */}
       {/* <Displayproduct allproducts={allproducts} deleteProduct={deleteProduct} editProduct={editProduct} /> */}
