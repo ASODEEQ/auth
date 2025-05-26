@@ -4,8 +4,14 @@ import { useNavigate } from 'react-router-dom'
 const Home = () => {
   let navigate = useNavigate()
   const logout=()=>{
-    
-    navigate('/login')
+    if(navigate){
+      navigate('/login')
+     console.log('logout successfully');
+     
+    }else{
+      console.log('error loging out');
+      
+    }
 
   }
   return (
